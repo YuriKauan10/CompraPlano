@@ -24,6 +24,10 @@
   font-weight: 600;
 }
 
+.satoshiBold{
+  font-family: satoshi-bold;
+}
+
 .imagem{
   background-image: url(./imgs/pattern.jpg);
   background-size: cover;
