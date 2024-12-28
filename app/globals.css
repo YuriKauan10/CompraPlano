@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: satoshi-bold;
+  src: url('../public/fontes/SATOSHI-BOLD.OTF');
+}
+@font-face {
+  font-family: satoshi-light;
+  src: url('../public/fontes/SATOSHI-LIGHT.OTF');
+}
+@font-face {
+  font-family: satoshi-medium;
+  src: url('../public/fontes/SATOSHI-MEDIUM.OTF');
+}
+@font-face {
+  font-family: satoshi-regular;
+  src: url('../public/fontes/SATOSHI-REGULAR.OTF');
+}
+
+.fonteBold{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.imagem{
+  background-image: url(./imgs/pattern.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.amarelo{
+  background-color: #ffdd25;
+}
+
+.espacamento{
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
